@@ -1,0 +1,33 @@
+{
+  "total_pages": 115,
+  "pages_processed": 115,
+  "lines_intelligently_added": 1094,
+  "quality_maintained": true,
+  "total_text_length": 145488,
+  "quality_verification": {
+    "formula_quality": {
+      "pattern": "\\{R/\\(১০০\\+ R\\)\\}",
+      "count_original": 1,
+      "count_new": 1,
+      "preserved": true
+    },
+    "bengali_numbers": {
+      "pattern": "[০-৯]",
+      "count_original": 9930,
+      "count_new": 9930,
+      "preserved": true
+    },
+    "section_numbers": {
+      "pattern": "[০-৯\\d]+।",
+      "count_original": 97,
+      "count_new": 97,
+      "preserved": true
+    },
+    "act_references": {
+      "pattern": "২০[০-৯]{2}\\s*সনের\\s*[০-৯\\d]+\\s*নং",
+      "count_original": 134,
+      "count_new": 134,
+      "preserved": true
+    }
+  }
+}

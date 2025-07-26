@@ -1,0 +1,45 @@
+{
+  "total_pages": 115,
+  "pages_processed": 115,
+  "hybrid_mappings_applied": 115,
+  "quality_preserved": true,
+  "line_breaks_preserved": true,
+  "total_text_length": 145629,
+  "quality_verification": {
+    "critical_formulas": {
+      "pattern": "\\{R/\\(১০০\\+ R\\)\\}",
+      "description": "Mathematical formulas",
+      "original_count": 1,
+      "hybrid_count": 1,
+      "preserved": true
+    },
+    "bengali_numbers": {
+      "pattern": "[০-৯]+",
+      "description": "Bengali numerals",
+      "original_count": 4070,
+      "hybrid_count": 4070,
+      "preserved": true
+    },
+    "section_markers": {
+      "pattern": "[০-৯\\d]+।",
+      "description": "Section numbers",
+      "original_count": 97,
+      "hybrid_count": 97,
+      "preserved": true
+    },
+    "act_references": {
+      "pattern": "২০[০-৯]{2}\\s*সনের\\s*[০-৯\\d]+\\s*নং",
+      "description": "Act references",
+      "original_count": 134,
+      "hybrid_count": 134,
+      "preserved": true
+    },
+    "chapter_headers": {
+      "pattern": "(প্রথম|দ্বিতীয়|তৃতীয়|চতুর্থ|পঞ্চম)\\s*অধ্যায়",
+      "description": "Chapter headers",
+      "original_count": 9,
+      "hybrid_count": 9,
+      "preserved": true
+    }
+  }
+}

@@ -1,0 +1,370 @@
+{
+  "tax_rules_sample": [
+    {
+      "input": "বাংলাদেশ গেজেট, অতিরিক্ত, জুন 30, 2024 20479 (cid:1)(cid:29)(cid:14)(cid:17)(cid:9)(cid:11)(cid:9) (cid:23)(cid:9)(cid:11)~ql(cid:12) * (cid:23)M(cid:14)(cid:13) }(cid:23)K(cid:24)/(cid:14) (cid:1)##(cid:14)(cid:12) (cid:23)(cid:26)v(cid:9) (cid:17)(cid:9)(cid:11)(cid:13)(cid:14)(cid:12) C(cid:13)(cid:9)G NO/(cid:9)(cid:14) (Description of Goods) (Heading) (H.S. Code) (%) (4) ((cid:19)) ((cid:21)) (<) 4[.(cid:20)(cid:19) (cid:23)(cid:13)$ Pasta, whether or not cooked or stuffed (cid:21)(cid:20) ...",
+      "output": {
+        "applies_to": [
+          "general"
+        ],
+        "tax_rate": 19.0,
+        "conditions": []
+      }
+    },
+    {
+      "input": "বাংলাদেশ গেজেট, অতিরিক্ত, জুন 30, 2024 20501 (cid:1)(cid:29)(cid:14)(cid:17)(cid:9)(cid:11)(cid:9) (cid:23)(cid:9)(cid:11)~ql(cid:12) * (cid:23)M(cid:14)(cid:13) }(cid:23)K(cid:24)/(cid:14) (cid:1)##(cid:14)(cid:12) (cid:23)(cid:26)v(cid:9) (cid:17)(cid:9)(cid:11)(cid:13)(cid:14)(cid:12) C(cid:13)(cid:9)G NO/(cid:9)(cid:14) (Description of Goods) (Heading) (H.S. Code) (%) (4) ((cid:19)) ((cid:21)) (<) 6(cid:21)4e.4[.(cid:20)(cid:20) Other Screw (cid:19)(cid:20) 6(cid:21).(cid:19)(cid:20) 6(cid:2...",
+      "output": {
+        "applies_to": [
+          "general"
+        ],
+        "tax_rate": 21.0,
+        "conditions": []
+      }
+    },
+    {
+      "input": "বাংলাদেশ গেজেট, অতিরিক্ত, জুন 30, 2024 20561 4(cid:20)(cid:25)। (cid:19)(cid:20)(cid:19)(cid:21) (cid:23)(cid:24)(cid:17)(cid:14) (cid:25)6 (cid:17)(cid:26) (cid:15)(cid:16)(cid:24)(cid:17)(cid:14) -1(cid:11) (cid:3)((cid:1)(cid:23)$।—(cid:28)(cid:16) (cid:15)(cid:16)(cid:24)(cid:17)(cid:14) (cid:3)((cid:1)(cid:23)$-4 (cid:28) !(cid:1)%(cid:1)&(cid:3) -1(cid:11) (cid:3)((cid:1)(cid:23)$ ((cid:216)1(cid:13)Y(cid:9)(cid:24)# £(cid:1)(cid:156)(cid:3)) /(cid:16)(cid:24)# !\" (cid:15)(cid:16)(cid:24)(...",
+      "output": {
+        "applies_to": [
+          "general"
+        ],
+        "tax_rate": 15.0,
+        "conditions": []
+      }
+    },
+    {
+      "input": "বাংলাদেশ গেজেট, অতিরিক্ত, জুন 30, 2024 20583 (cid:1)2% -.(cid:4)(cid:21) (cid:28)>(cid:4)?(cid:16)(cid:4) (cid:1)(cid:2)(cid:3)(cid:4)(cid:2), Provisional Collection of Taxes Act, 1931 (Act No. XVI of 1931), -(cid:19)w(cid:20)(cid:2) x Act (cid:13)(cid:8)(cid:14)(cid:21)(cid:4) (cid:8):(cid:8);(cid:19), (cid:17)(cid:2) section 3-(cid:28)(cid:19) (cid:11)yz 1%(cid:19)(cid:4)(cid:13)(cid:5)(cid:14), (cid:17)(cid:22) (cid:8)(cid:13)(cid:5)(cid:14)(cid:2) (cid:11)(cid:12)(cid:4)(cid:8)(cid:13)(cid:1...",
+      "output": {
+        "applies_to": [
+          "general"
+        ],
+        "tax_rate": 2.0,
+        "conditions": []
+      }
+    }
+  ],
+  "tax_tables_sample": [
+    {
+      "table_type": "general",
+      "headers": [
+        "(cid:1)(cid:29)(cid:14)(cid:17)(cid:9)(cid:11)(cid:9) (cid:23)(cid:26)v(cid:9) (Heading)",
+        "(cid:23)(cid:9)(cid:11)~ql(cid:12) * (cid:17)(cid:9)(cid:11)(cid:13)(cid:14)(cid:12) C(cid:13)(cid:9)G (H.S. Code)",
+        "}(cid:23)K(cid:24)/(cid:14) (cid:1)##(cid:14)(cid:12) (Description of Goods)",
+        "(cid:23)M(cid:14)(cid:13) NO/(cid:9)(cid:14) (%)"
+      ],
+      "data": [
+        [
+          "(cid:1)(cid:29)(cid:14)(cid:17)(cid:9)(cid:11)(cid:9) (cid:23)(cid:26)v(cid:9) (Heading)",
+          "(cid:23)(cid:9)(cid:11)~ql(cid:12) * (cid:17)(cid:9)(cid:11)(cid:13)(cid:14)(cid:12) C(cid:13)(cid:9)G (H.S. Code)",
+          "}(cid:23)K(cid:24)/(cid:14) (cid:1)##(cid:14)(cid:12) (Description of Goods)",
+          "(cid:23)M(cid:14)(cid:13) NO/(cid:9)(cid:14) (%)"
+        ],
+        [
+          "(4)",
+          "((cid:19))",
+          "((cid:21))",
+          "(<)"
+        ],
+        [
+          "(cid:20)(cid:19).(cid:20)4, (cid:20)(cid:19).(cid:20)(cid:19), (cid:20)(cid:19).(cid:20)<",
+          "(cid:23)(cid:13)$ (cid:28)(cid:16)I,(cid:28)(cid:23),C(cid:13)(cid:9)G",
+          "Meat of bovine animals, sheeps or goats, fresh or chilled or frozen.",
+          "(cid:19)(cid:20)"
+        ],
+        [
+          "(cid:20)(cid:19).(cid:20)d",
+          "(cid:23)(cid:13)$ (cid:28)(cid:16)I,(cid:28)(cid:23),C(cid:13)(cid:9)G ((cid:20)(cid:19)(cid:20)d.(cid:21)(cid:20).4(cid:20), (cid:20)(cid:19)(cid:20)d.(cid:21)(cid:20).[(cid:20), (cid:20)(cid:19)(cid:20)d.<4.4(cid:20), (cid:20)(cid:19)(cid:20)d.<4.[(cid:20), (cid:20)(cid:19)(cid:20)d.<[.4(cid:20), (cid:20)(cid:19)(cid:20)d.<[.[(cid:20) J(cid:3)(cid:4)(cid:3))",
+          "Edible offal of bovine animals, swine, sheep, goats, horses, asses, mules or hinnies, fresh, chilled or frozen.",
+          "(cid:19)(cid:20)"
+        ],
+        [
+          "(cid:20)(cid:19).(cid:20)6",
+          "(cid:23)(cid:13)$ (cid:28)(cid:16)I,(cid:28)(cid:23),C(cid:13)(cid:9)G ((cid:20)(cid:19)(cid:20)6.44.4(cid:20), (cid:20)(cid:19)(cid:20)6.44.[(cid:20), (cid:20)(cid:19)(cid:20)6.4(cid:19).4(cid:20), (cid:20)(cid:19)(cid:20)6.4(cid:19).[(cid:20), (cid:20)(cid:19)(cid:20)6.4(cid:21).4(cid:20), (cid:20)(cid:19)(cid:20)6.4(cid:21).[(cid:20), (cid:20)(cid:19)(cid:20)6.4<.[(cid:20) J(cid:3)(cid:4)(cid:3))",
+          "Meat, and edible offal, of the poultry of heading. 01.05, fresh, chilled or frozen.",
+          "(cid:19)(cid:20)"
+        ],
+        [
+          "(cid:20)(cid:21).(cid:20)(cid:19)",
+          "(cid:20)(cid:21)(cid:20)(cid:19).4(cid:21).4(cid:20) (cid:20)(cid:21)(cid:20)(cid:19).4(cid:21).[(cid:20)",
+          "Pacific salmon",
+          "(cid:19)(cid:20)"
+        ],
+        [
+          "",
+          "(cid:20)(cid:21)(cid:20)(cid:19).4<.4(cid:20) (cid:20)(cid:21)(cid:20)(cid:19).4<.[(cid:20)",
+          "Atlantic salmon (Salmo salar) and Danube salmon (Hucho hucho)",
+          "(cid:19)(cid:20)"
+        ],
+        [
+          "",
+          "(cid:20)(cid:21)(cid:20)(cid:19).4[.[(cid:20)",
+          "Other fish",
+          "(cid:19)(cid:20)"
+        ],
+        [
+          "",
+          "(cid:20)(cid:21)(cid:20)(cid:19).(cid:21)4.4(cid:20) (cid:20)(cid:21)(cid:20)(cid:19).(cid:21)4.[(cid:20)",
+          "Albacore or longfinned tunas",
+          "(cid:19)(cid:20)"
+        ]
+      ],
+      "metadata": {}
+    },
+    {
+      "table_type": "general",
+      "headers": [
+        "(cid:1)(cid:29)(cid:14)(cid:17)(cid:9)(cid:11)(cid:9) (cid:23)(cid:26)v(cid:9) (Heading)",
+        "(cid:23)(cid:9)(cid:11)~ql(cid:12) * (cid:17)(cid:9)(cid:11)(cid:13)(cid:14)(cid:12) C(cid:13)(cid:9)G (H.S. Code)",
+        "}(cid:23)K(cid:24)/(cid:14) (cid:1)##(cid:14)(cid:12) (Description of Goods)",
+        "(cid:23)M(cid:14)(cid:13) NO/(cid:9)(cid:14) (%)"
+      ],
+      "data": [
+        [
+          "(cid:1)(cid:29)(cid:14)(cid:17)(cid:9)(cid:11)(cid:9) (cid:23)(cid:26)v(cid:9) (Heading)",
+          "(cid:23)(cid:9)(cid:11)~ql(cid:12) * (cid:17)(cid:9)(cid:11)(cid:13)(cid:14)(cid:12) C(cid:13)(cid:9)G (H.S. Code)",
+          "}(cid:23)K(cid:24)/(cid:14) (cid:1)##(cid:14)(cid:12) (Description of Goods)",
+          "(cid:23)M(cid:14)(cid:13) NO/(cid:9)(cid:14) (%)"
+        ],
+        [
+          "(4)",
+          "((cid:19))",
+          "((cid:21))",
+          "(<)"
+        ],
+        [
+          "",
+          "(cid:20)(cid:21)(cid:20)(cid:19).(cid:21)(cid:19).4(cid:20) (cid:20)(cid:21)(cid:20)(cid:19).(cid:21)(cid:19).[(cid:20)",
+          "Yellowfin tunas",
+          "(cid:19)(cid:20)"
+        ],
+        [
+          "",
+          "(cid:20)(cid:21)(cid:20)(cid:19).(cid:21)<.4(cid:20) (cid:20)(cid:21)(cid:20)(cid:19).(cid:21)<.[(cid:20)",
+          "Bigeye tunas",
+          "(cid:19)(cid:20)"
+        ],
+        [
+          "",
+          "(cid:20)(cid:21)(cid:20)(cid:19).(cid:21)(cid:25).4(cid:20) (cid:20)(cid:21)(cid:20)(cid:19).(cid:21)(cid:25).[(cid:20)",
+          "Atlantic and Pacific bluefin tunas",
+          "(cid:19)(cid:20)"
+        ],
+        [
+          "",
+          "(cid:20)(cid:21)(cid:20)(cid:19).(cid:21)d.4(cid:20) (cid:20)(cid:21)(cid:20)(cid:19).(cid:21)d.[(cid:20)",
+          "Southem bluefin tunas",
+          "(cid:19)(cid:20)"
+        ],
+        [
+          "",
+          "(cid:20)(cid:21)(cid:20)(cid:19).(cid:21)[.4(cid:20) (cid:20)(cid:21)(cid:20)(cid:19).(cid:21)[.[(cid:20)",
+          "Other tunas",
+          "(cid:19)(cid:20)"
+        ],
+        [
+          "",
+          "(cid:20)(cid:21)(cid:20)(cid:19).[[.4(cid:20) (cid:20)(cid:21)(cid:20)(cid:19).[[.[(cid:20)",
+          "heads, tails, maws and other edible fish offal",
+          "(cid:19)(cid:20)"
+        ],
+        [
+          "(cid:20)(cid:21).(cid:20)(cid:21)",
+          "(cid:20)(cid:21)(cid:20)(cid:21).44.4(cid:20) (cid:20)(cid:21)(cid:20)(cid:21).44.[(cid:20)",
+          "Sockeye salmon",
+          "(cid:19)(cid:20)"
+        ],
+        [
+          "",
+          "(cid:20)(cid:21)(cid:20)(cid:21).4(cid:19).4(cid:20) (cid:20)(cid:21)(cid:20)(cid:21).4(cid:19).[(cid:20)",
+          "Other Pacific salmon",
+          "(cid:19)(cid:20)"
+        ],
+        [
+          "",
+          "(cid:20)(cid:21)(cid:20)(cid:21).4(cid:21).4(cid:20) (cid:20)(cid:21)(cid:20)(cid:21).4(cid:21).[(cid:20)",
+          "Atlantic salmon (Salmo salar) and Danube salmon (Hucho hucho)",
+          "(cid:19)(cid:20)"
+        ],
+        [
+          "",
+          "(cid:20)(cid:21)(cid:20)(cid:21).4[.4(cid:20) (cid:20)(cid:21)(cid:20)(cid:21).4[.[(cid:20)",
+          "Other",
+          "(cid:19)(cid:20)"
+        ],
+        [
+          "",
+          "(cid:20)(cid:21)(cid:20)(cid:21).<(cid:19).4(cid:20) (cid:20)(cid:21)(cid:20)(cid:21).<(cid:19).[(cid:20)",
+          "Yellowfin tunas",
+          "(cid:19)(cid:20)"
+        ],
+        [
+          "",
+          "(cid:20)(cid:21)(cid:20)(cid:21).<<.4(cid:20) (cid:20)(cid:21)(cid:20)(cid:21).<<.[(cid:20)",
+          "Bigeye tunas",
+          "(cid:19)(cid:20)"
+        ],
+        [
+          "",
+          "(cid:20)(cid:21)(cid:20)(cid:21).<(cid:25).4(cid:20) (cid:20)(cid:21)(cid:20)(cid:21).<(cid:25).[(cid:20)",
+          "Atlantic and Pacific bluefin tunas",
+          "(cid:19)(cid:20)"
+        ],
+        [
+          "",
+          "(cid:20)(cid:21)(cid:20)(cid:21).<d.4(cid:20) (cid:20)(cid:21)(cid:20)(cid:21).<d.[(cid:20)",
+          "Southem bluefin tunas",
+          "(cid:19)(cid:20)"
+        ]
+      ],
+      "metadata": {}
+    },
+    {
+      "table_type": "general",
+      "headers": [
+        "(cid:1)(cid:29)(cid:14)(cid:17)(cid:9)(cid:11)(cid:9) (cid:23)(cid:26)v(cid:9) (Heading)",
+        "(cid:23)(cid:9)(cid:11)~ql(cid:12) * (cid:17)(cid:9)(cid:11)(cid:13)(cid:14)(cid:12) C(cid:13)(cid:9)G (H.S. Code)",
+        "}(cid:23)K(cid:24)/(cid:14) (cid:1)##(cid:14)(cid:12) (Description of Goods)",
+        "(cid:23)M(cid:14)(cid:13) NO/(cid:9)(cid:14) (%)"
+      ],
+      "data": [
+        [
+          "(cid:1)(cid:29)(cid:14)(cid:17)(cid:9)(cid:11)(cid:9) (cid:23)(cid:26)v(cid:9) (Heading)",
+          "(cid:23)(cid:9)(cid:11)~ql(cid:12) * (cid:17)(cid:9)(cid:11)(cid:13)(cid:14)(cid:12) C(cid:13)(cid:9)G (H.S. Code)",
+          "}(cid:23)K(cid:24)/(cid:14) (cid:1)##(cid:14)(cid:12) (Description of Goods)",
+          "(cid:23)M(cid:14)(cid:13) NO/(cid:9)(cid:14) (%)"
+        ],
+        [
+          "(4)",
+          "((cid:19))",
+          "((cid:21))",
+          "(<)"
+        ],
+        [
+          "",
+          "(cid:20)(cid:21)(cid:20)(cid:21).<[.4(cid:20) (cid:20)(cid:21)(cid:20)(cid:21).<[.[(cid:20)",
+          "Other tunas",
+          "(cid:19)(cid:20)"
+        ],
+        [
+          "(cid:20)(cid:21).(cid:20)<",
+          "(cid:20)(cid:21)(cid:20)<.<4.4(cid:20) (cid:20)(cid:21)(cid:20)<.<4.[(cid:20)",
+          "Pacific salmon",
+          "(cid:19)(cid:20)"
+        ],
+        [
+          "",
+          "(cid:20)(cid:21)(cid:20)<.e4.4(cid:20) (cid:20)(cid:21)(cid:20)<.e4.[(cid:20)",
+          "Pacific salmon",
+          "(cid:19)(cid:20)"
+        ],
+        [
+          "",
+          "(cid:20)(cid:21)(cid:20)<.e6.4(cid:20) (cid:20)(cid:21)(cid:20)<.e6.[(cid:20)",
+          "Tunas (of the genus Thunnus), Skipjack tuna (stripe-bellied bonito) (Katsuwonus pelamis)",
+          "(cid:19)(cid:20)"
+        ],
+        [
+          "",
+          "(cid:20)(cid:21)(cid:20)<.e[.4(cid:20) (cid:20)(cid:21)(cid:20)<.e[.[(cid:20)",
+          "Other",
+          "(cid:19)(cid:20)"
+        ],
+        [
+          "(cid:20)(cid:21).(cid:20)(cid:25)",
+          "(cid:20)(cid:21)(cid:20)(cid:25).(cid:25)[.[(cid:20)",
+          "(cid:7)(cid:129)(cid:9)(cid:129) N(cid:13)(cid:17)(cid:9) (cid:11)(cid:9)(cid:130) ($#(cid:12)(cid:9)\" /!(cid:13) #(cid:9) (cid:17)(cid:9) /!(cid:13)), (cid:131)(cid:11)(cid:9)(cid:1)(cid:5)(cid:3) (cid:17)(cid:5) ((cid:15)A(cid:9)(cid:16) C(cid:13)(cid:1)8 0?* C(cid:11)(cid:9)A(cid:13) #(cid:9) W(cid:17)8(cid:9)(cid:3) J(cid:3)(cid:4)(cid:3))",
+          "(cid:19)(cid:20)"
+        ],
+        [
+          "(cid:20)(cid:21).(cid:20)d",
+          "(cid:20)(cid:21)(cid:20)d.4d.(cid:20)(cid:20) (cid:20)(cid:21)(cid:20)d.46.(cid:20)(cid:20)",
+          "(cid:1)/(cid:11)(cid:9)(cid:1)(cid:5)(cid:3) (cid:1)I(cid:26)(cid:1)A",
+          "(cid:19)(cid:20)"
+        ],
+        [
+          "(cid:20)(cid:21).(cid:20)[",
+          "(cid:20)(cid:21)(cid:20)[.4(cid:20).4(cid:20) (cid:20)(cid:21)(cid:20)[.[(cid:20).4(cid:20)",
+          "(cid:11)(cid:9)7(cid:24)Q(cid:14) &(cid:9)5(cid:5)(cid:9)(cid:14) ! (cid:24)0(cid:9)c(cid:4) (cid:11)(cid:9)(cid:24)(cid:130)(cid:14) (cid:132)(cid:13)(cid:14)(cid:9) #(cid:9) z(cid:133)A(cid:9) ((cid:15)A(cid:9)(cid:16) C(cid:13)(cid:1)8 0?* C(cid:11)(cid:9)A(cid:13) #(cid:9) W(cid:17)8(cid:9)(cid:3))",
+          "(cid:19)(cid:20)"
+        ],
+        [
+          "(cid:20)<.(cid:20)(cid:25)",
+          "(cid:23)(cid:13)$ (cid:28)(cid:16)I,(cid:28)(cid:23),(cid:24)(cid:13)(cid:9)G",
+          "(cid:11)(cid:9)&(cid:17) (cid:28)#(cid:26) (cid:7)(cid:129)(cid:9)(cid:129) (cid:134)(cid:135)8(cid:9)(cid:3) I(cid:1)# *5 (cid:136)(cid:3)$; CG(cid:16)(cid:14)(cid:4) C(cid:137)G(cid:138)",
+          "(cid:19)(cid:20)"
+        ],
+        [
+          "(cid:20)<.(cid:20)d",
+          "(cid:23)(cid:13)$ (cid:28)(cid:16)I,(cid:28)(cid:23),(cid:24)(cid:13)(cid:9)G",
+          "Cheese and Curd",
+          "(cid:19)(cid:20)"
+        ],
+        [
+          "(cid:20)6.(cid:20)(cid:19)",
+          "(cid:23)(cid:13)$ (cid:28)(cid:16)I,(cid:28)(cid:23),(cid:24)(cid:13)(cid:9)G",
+          "(cid:3)(cid:9)8(cid:9) #(cid:9) (cid:139)(cid:9)y(cid:9) X(cid:24)(cid:11)(cid:24)X(cid:9)",
+          "(cid:19)(cid:20)"
+        ],
+        [
+          "(cid:20)6.(cid:20)d",
+          "(cid:20)6(cid:20)d.4(cid:20).4(cid:20)",
+          "Carrots And Turnips, Fresh Or Chilled, Wrapped/Canned upto 2.5 kg",
+          "(cid:19)(cid:20)"
+        ],
+        [
+          "",
+          "(cid:20)6(cid:20)d.4(cid:20).[(cid:20)",
+          "Carrots And Turnips, Fresh Or Chilled, in bulk",
+          "(cid:19)(cid:20)"
+        ],
+        [
+          "(cid:20)6.(cid:20)[",
+          "(cid:23)(cid:13)$ (cid:28)(cid:16)I,(cid:28)(cid:23),(cid:24)(cid:13)(cid:9)G",
+          "Other vegetables, fresh or chilled.",
+          "(cid:19)(cid:20)"
+        ]
+      ],
+      "metadata": {}
+    }
+  ],
+  "qa_pairs_sample": [
+    {
+      "question": "What does section 20470 say?",
+      "answer": "বাংলাদেশ গেজেট, অতিরিক্ত, জুন 30, 2024 20471 “((cid:19)) C#(cid:9)G,* (cid:15)(cid:24)’(cid:29) (cid:2)(cid:9)(cid:14)(cid:9), K(cid:23)(cid:13) (cid:13)(cid:11)(cid:13)* (cid:3)(cid:9)*c(cid:24)(cid:12)(cid:14) (cid:1)(cid:17)(cid:24)(cid:5)(cid:9)c (cid:28)#(cid:26) (cid:15)Â(cid:1)$(cid:13) (cid:7)(cid:1)(cid:30)(cid:24)ab (cid:1)(cid:17)(cid:30)(cid:9)*(cid:14)(cid:12) (cid:13)(cid:1)(cid:14)(cid:5)(cid:9) (cid:28)(cid:16) (cid:15)(cid:16)(cid:17) #(cid:9) (cid:3)’(cid:30)(cid:4)(cid:17) -(cid:12)(cid:4)(cid:3) (cid:1)#(cid:1)(cid:30)-(cid:1)#(cid:30)(cid:9)(cid:24)(cid:17)(cid:14) (cid:15)5(cid:3)(cid:9)(cid:5) (cid:3)(cid:9)/(cid:9)(cid:24)’(cid:14) ’(cid:9)(cid:1)(cid:5)f, (cid:13)(cid:3)J* , a(cid:11)(cid:3)(cid:9) 5 (cid:13)(cid:9)0(cid:9)*#$(cid:4) g(cid:1)(cid:17)(cid:1)’h* (cid:13)(cid:1)(cid:14)(cid:24)(cid:3) (cid:9)(cid:1)(cid:14)(cid:24)#।”। 6। (cid:19)(cid:20)4(cid:19) (cid:23)(cid:24)(cid:17)(cid:14) <6 (cid:17)(cid:26) (cid:15)(cid:16)(cid:24)(cid:17)(cid:14) (cid:30)(cid:9)(cid:14)(cid:9) e4 (cid:28)(cid:14) -(cid:1)(cid:3).(cid:9) (cid:17)।—!\" (cid:15)(cid:16)(cid:24)(cid:17)(cid:14) (cid:30)(cid:9)(cid:14)(cid:9) e4 (cid:28)(cid:14) (cid:1)(cid:14)#(cid:24)(cid:3) *(cid:1)(cid:17)+, (cid:30)(cid:9)(cid:14)(cid:9) e4 -(cid:1)(cid:3).(cid:9)(cid:1) (cid:3) /(cid:16)(cid:24)#, 01(cid:9):— “e4। a(cid:11)(cid:3)(cid:9) (cid:7) (cid:12)* ।— (4) (cid:28)(cid:16) (cid:15)(cid:16)(cid:24)(cid:17)(cid:14) !(cid:24)jk l(cid:14)(cid:12)(cid:13)(cid:24)m, C#(cid:9)G *C0 (cid:23)(cid:13)$ a(cid:11)(cid:3)(cid:9) -(cid:24)(cid:5)(cid:9)c 5 (cid:13)(cid:9)0 *(cid:23)n(cid:9)’(cid:17) (cid:13)(cid:1)(cid:14)(cid:24)(cid:3) (cid:9)(cid:1)(cid:14)(cid:24)#, CI(cid:5)(cid:9)(cid:14)o(cid:9)(cid:17), 8(cid:9)(cid:3)(cid:4)(cid:5) (cid:14)(cid:9)8F C#(cid:9)G *#(cid:9), Cap(cid:14)(cid:11)(cid:3), (cid:23)’q (KL (cid:23)(cid:26)(cid:24)0(cid:9)8(cid:17) (cid:13)(cid:14)), 8(cid:9)(cid:3)(cid:4)(cid:5) (cid:14)(cid:9)8F C#(cid:9)G *C(cid:23)(cid:16) (cid:23)(cid:13)$ a(cid:11)(cid:3)(cid:9) -(cid:24)(cid:5)(cid:9)c 5 (cid:13)(cid:9)0 * (cid:23)n(cid:9)’(cid:17) (cid:13)(cid:1)(cid:14)(cid:24)(cid:3) (cid:9)(cid:1)(cid:14)(cid:24)#। ((cid:19)) C#(cid:9)G,* (cid:15)(cid:24)’(cid:29) (cid:2)(cid:9)(cid:14)(cid:9), (cid:15)(cid:24)’(cid:24)(cid:29) !(cid:1)%(cid:1)&(cid:3) (cid:23)(cid:4)(cid:11)(cid:9) 5 (cid:29)(cid:3) * (cid:23)(cid:9)(cid:24) (cid:24)a, C0(cid:24)(cid:13)(cid:9)(cid:17) K(cid:23)(cid:13) (cid:13)(cid:11)(cid:13)* (cid:3)(cid:9)*(cid:24)(cid:13) (cid:3)(cid:9)/(cid:9)(cid:14) (cid:17)(cid:9)(cid:11) 5 ’#(cid:4) !(cid:24)%&l#(cid:13)* (cid:28)(cid:16) (cid:15)(cid:16)(cid:17) #(cid:9) (cid:3)’(cid:30)(cid:4)(cid:17) -(cid:12)(cid:4)(cid:3) (cid:1)#(cid:1)(cid:30)- (cid:1)#(cid:30)(cid:9)(cid:24)(cid:17)(cid:14) (cid:7)(cid:30)(cid:4)(cid:17) (cid:13)(cid:1)(cid:11)(cid:29)(cid:17)(cid:9)(cid:24)(cid:14)(cid:14) C0 C(cid:13)(cid:9)(cid:24)(cid:17)(cid:9) ’(cid:9)(cid:1)(cid:5)f, (cid:13)(cid:3)J* 5 a(cid:11)(cid:3)(cid:9) (cid:7) (cid:12)* (cid:13)(cid:1)(cid:14)(cid:24)(cid:3) (cid:9)(cid:1)(cid:14)(cid:24)#। ((cid:21)) C#(cid:9)(cid:24)G(cid:14)* (cid:1)Yr(cid:3)(cid:14) (cid:1)(cid:17)(cid:24)’(cid:29)* (cid:17)(cid:9) 1(cid:9)(cid:1)(cid:13)(cid:24)$, (cid:13)(cid:1)(cid:11)(cid:29)(cid:17)(cid:9)(cid:14) #(cid:9) (cid:11)/(cid:9) (cid:1)(cid:14)I(cid:9)$(cid:13) (cid:7)(cid:30)s(cid:17) C0(cid:24)(cid:13)(cid:9)(cid:17) K(cid:23)(cid:13) (cid:13)(cid:11)(cid:13)* (cid:3)(cid:9)*(cid:24)(cid:13) (cid:3)(cid:9)/(cid:9)(cid:14) (cid:28)&(cid:1)(cid:3)(cid:5)(cid:9)(cid:14)(cid:9)(cid:30)(cid:4)(cid:17) (cid:28)$(cid:9)(cid:13)(cid:9)(cid:5) (cid:3)(cid:9)/(cid:9)(cid:14) C0(cid:24)(cid:13)(cid:9)(cid:17) a(cid:11)(cid:3)(cid:9) -(cid:24)(cid:5)(cid:9)(cid:24)c(cid:14) (cid:13)tf* -’(cid:9)(cid:17) (cid:13)(cid:1)(cid:14)(cid:24)(cid:3) (cid:9)(cid:1)(cid:14)(cid:24)#(cid:17)। (<) C(cid:13)(cid:9)(cid:17) K(cid:23)(cid:13) (cid:13)(cid:11)(cid:13)* (cid:3)(cid:9)*(cid:24)(cid:13) (cid:3)(cid:9)/(cid:9)(cid:14) (cid:7)J#(cid:1)/(cid:3) !u(cid:3)(cid:14) (cid:24)’ I$(cid:1)(cid:3) ’(cid:9)(cid:1)(cid:5)(cid:24)f ’(cid:9)(cid:5)(cid:17) (cid:13)(cid:1)(cid:14)(cid:24)$ (cid:1)(cid:3)(cid:1)(cid:17) !\" !u(cid:3)(cid:14) (cid:24)’(cid:14) (cid:23)(cid:13)$ ’(cid:9)(cid:1)(cid:5)f (cid:9)$(cid:17) 5 a(cid:11)(cid:3)(cid:9) -(cid:24)(cid:5)(cid:9)c (cid:13)(cid:1)(cid:14)C(cid:3) (cid:9)(cid:1)(cid:14)(cid:24)#(cid:17)।”। e। (cid:19)(cid:20)4(cid:19) (cid:23)(cid:24)(cid:17)(cid:14) <6 (cid:17)(cid:26) (cid:15)(cid:16)(cid:24)(cid:17)(cid:14) (cid:30)(cid:9)(cid:14)(cid:9) 4(cid:19)4 (cid:28)(cid:14) (cid:23)(cid:26)(cid:24)(cid:29)(cid:9)(cid:30)(cid:17)।—!\" (cid:15)(cid:16)(cid:24)(cid:17)(cid:14) (cid:30)(cid:9)(cid:14)(cid:9) 4(cid:19)4 (cid:28)(cid:14) ! - (cid:30)(cid:9)(cid:14)(cid:9) ((cid:19)) (cid:28) !(cid:1)%(cid:1)&(cid:3) “(cid:19)(cid:20) ((cid:1)#(cid:29))” (cid:23)(cid:26)v(cid:9), #w(cid:17)(cid:4) 5 (cid:29)(cid:24)R(cid:14) (cid:1)(cid:14)#(cid:24)(cid:3) *“4(cid:20) (’(cid:29))” (cid:23)(cid:26)v(cid:9), #w(cid:17)(cid:4) 5 (cid:29)R -(cid:1)(cid:3).(cid:9)(cid:1) (cid:3) /(cid:16)(cid:24)#। [। (cid:19)(cid:20)4(cid:19) (cid:23)(cid:24)(cid:17)(cid:14) <6 (cid:17)(cid:26) (cid:15)(cid:16)(cid:24)(cid:17)(cid:14) (cid:30)(cid:9)(cid:14)(cid:9) 4(cid:19)(cid:19) (cid:28)(cid:14) (cid:23)(cid:26)(cid:24)(cid:29)(cid:9)(cid:30)(cid:17)।- !\" (cid:15)(cid:16)(cid:24)(cid:17)(cid:14) (cid:30)(cid:9)(cid:14)(cid:9) 4(cid:19)(cid:19) (cid:28)(cid:14) ! - (cid:30)(cid:9)(cid:14)(cid:9) ((cid:19)) (cid:28) !(cid:1)%(cid:1)&(cid:3)— ((cid:13)) “(cid:19)(cid:20) ((cid:1)#(cid:29))” (cid:23)(cid:26)v(cid:9), #w(cid:17)(cid:4) 5 (cid:29)(cid:24)R(cid:14) (cid:1)(cid:14)#(cid:24)(cid:3) * “4(cid:20) (’(cid:29))” (cid:23)(cid:26)v(cid:9), #w(cid:17)(cid:4) 5 (cid:29)R -(cid:1)(cid:3).(cid:9)(cid:1) (cid:3) /(cid:16)(cid:24)#; (cid:28)#(cid:26) (&) “’(cid:9)#(cid:4)x(cid:3) (cid:13)(cid:14) #(cid:9) (cid:15)(cid:24)(cid:14)(cid:9)(cid:1) (cid:3) (cid:7)1’* (cid:24)y(cid:14)” (cid:29)Rz(cid:1)$(cid:14) (cid:1)(cid:14)#(cid:24)(cid:3) * “’(cid:9)#(cid:4)x(cid:3) (cid:13)(cid:24)(cid:14)(cid:14), 8(cid:1)(cid:14)(cid:11)(cid:9)(cid:17)(cid:9) J(cid:3)(cid:4)(cid:3),” (cid:29)Rz(cid:1)$ 5 (cid:1)IVz(cid:1)$ -(cid:1)(cid:3).(cid:9)(cid:1) (cid:3) /(cid:16)(cid:24)#। 4(cid:20)। (cid:19)(cid:20)4(cid:19) (cid:23)(cid:24)(cid:17)(cid:14) <6 (cid:17)(cid:26) (cid:15)(cid:16)(cid:24)(cid:17)(cid:14) (cid:30)(cid:9)(cid:14)(cid:9) 4(cid:19)[ (cid:28)(cid:14) (cid:23)(cid:26)(cid:24)(cid:29)(cid:9)(cid:30)(cid:17)।—!\" (cid:15)(cid:16)(cid:24)(cid:17)(cid:14) (cid:30)(cid:9)(cid:14)(cid:9) 4(cid:19)[ (cid:28) !(cid:1)%(cid:1)&(cid:3) “C(cid:13)(cid:9)(cid:17) (cid:13)(cid:1)(cid:11)(cid:29)(cid:17)(cid:9)(cid:14)” (cid:29)Rz(cid:1)$(cid:14) (cid:1)(cid:14)#(cid:24)(cid:3) *“C(cid:13)(cid:9)(cid:17) K(cid:23)(cid:13) (cid:13)(cid:11)(cid:13)* (cid:3)(cid:9)*” (cid:29)Rz(cid:1)$ -(cid:1)(cid:3).(cid:9)(cid:1) (cid:3) /(cid:16)(cid:24)#। 44। (cid:19)(cid:20)4(cid:19) (cid:23)(cid:24)(cid:17)(cid:14) <6 (cid:17)(cid:26) (cid:15)(cid:16)(cid:24)(cid:17)(cid:14) (cid:30)(cid:9)(cid:14)(cid:9) 4(cid:21)(cid:20) (cid:28)(cid:14) (cid:23)(cid:26)(cid:24)(cid:29)(cid:9)(cid:30)(cid:17)।—!\" (cid:15)(cid:16)(cid:24)(cid:17)(cid:14) (cid:30)(cid:9)(cid:14)(cid:9) 4(cid:21)(cid:20) (cid:28)(cid:14) ! -(cid:30)(cid:9)(cid:14)(cid:9) (4) (cid:28) !(cid:1)%(cid:1)&(cid:3) “I(cid:9)X(cid:9)*G *(cid:28)(cid:13)(cid:9)!(cid:24){{ #(cid:9)” (cid:29)Rz(cid:1)$(cid:14) (cid:14) “(cid:3)B (cid:17)C D(cid:4)(cid:5)(cid:23)((cid:5)%E (cid:28)(cid:13)(cid:9)!(cid:24){{ #(cid:9)” (cid:29)Rz(cid:1)$ (cid:23)(cid:1)r(cid:24)#(cid:1)(cid:29)(cid:3) /(cid:16)(cid:24)#। 4(cid:19)। (cid:19)(cid:20)4(cid:19) (cid:23)(cid:24)(cid:17)(cid:14) <6 (cid:17)(cid:26) (cid:15)(cid:16)(cid:24)(cid:17)(cid:14) (cid:1)(cid:2)(cid:3)(cid:4)(cid:5) (cid:3)((cid:1)(cid:23)$ (cid:28)(cid:14) (cid:23)(cid:26)(cid:24)(cid:29)(cid:9)(cid:30)(cid:17)।—!\" (cid:15)(cid:16)(cid:24)(cid:17)(cid:14) (cid:1)(cid:2)(cid:3)(cid:4)(cid:5) (cid:3)((cid:1)(cid:23)$ (cid:28)(cid:14)— ((cid:13)) CX(cid:1)#$-4 (cid:28)(cid:14) (cid:1)(cid:14)#(cid:24)(cid:3) *(cid:1)(cid:17)+, CX(cid:1)#$-4 -(cid:1)(cid:3).(cid:9)(cid:1) (cid:3) /(cid:16)(cid:24)#, 01(cid:9):—",
+      "context": {
+        "section_id": "20470",
+        "page": 2
+      }
+    },
+    {
+      "question": "What does section 20472 say?",
+      "answer": "বাংলাদেশ গেজেট, অতিরিক্ত, জুন 30, 2024 20473 (cid:1)(cid:29)(cid:14)(cid:17)(cid:9)(cid:11)(cid:9) (cid:23)(cid:9)(cid:11)~ql(cid:12) * (cid:23)M(cid:14)(cid:13) }(cid:23)K(cid:24)/(cid:14) (cid:1)##(cid:14)(cid:12) (cid:23)(cid:26)v(cid:9) (cid:17)(cid:9)(cid:11)(cid:13)(cid:14)(cid:12) C(cid:13)(cid:9)G NO/(cid:9)(cid:14) (Description of Goods) (Heading) (H.S. Code) (%) (4) ((cid:19)) ((cid:21)) (<) (cid:20)(cid:21)(cid:20)(cid:19).(cid:21)(cid:19).4(cid:20) Yellowfin tunas (cid:19)(cid:20) (cid:20)(cid:21)(cid:20)(cid:19).(cid:21)(cid:19).[(cid:20) (cid:20)(cid:21)(cid:20)(cid:19).(cid:21)<.4(cid:20) Bigeye tunas (cid:19)(cid:20) (cid:20)(cid:21)(cid:20)(cid:19).(cid:21)<.[(cid:20) (cid:20)(cid:21)(cid:20)(cid:19).(cid:21)(cid:25).4(cid:20) Atlantic and Pacific bluefin tunas (cid:19)(cid:20) (cid:20)(cid:21)(cid:20)(cid:19).(cid:21)(cid:25).[(cid:20) (cid:20)(cid:21)(cid:20)(cid:19).(cid:21)d.4(cid:20) Southem bluefin tunas (cid:19)(cid:20) (cid:20)(cid:21)(cid:20)(cid:19).(cid:21)d.[(cid:20) (cid:20)(cid:21)(cid:20)(cid:19).(cid:21)[.4(cid:20) Other tunas (cid:19)(cid:20) (cid:20)(cid:21)(cid:20)(cid:19).(cid:21)[.[(cid:20) (cid:20)(cid:21)(cid:20)(cid:19).[[.4(cid:20) heads, tails, maws and other edible (cid:19)(cid:20) (cid:20)(cid:21)(cid:20)(cid:19).[[.[(cid:20) fish offal (cid:20)(cid:21).(cid:20)(cid:21) (cid:20)(cid:21)(cid:20)(cid:21).44.4(cid:20) Sockeye salmon (cid:19)(cid:20) (cid:20)(cid:21)(cid:20)(cid:21).44.[(cid:20) (cid:20)(cid:21)(cid:20)(cid:21).4(cid:19).4(cid:20) Other Pacific salmon (cid:19)(cid:20) (cid:20)(cid:21)(cid:20)(cid:21).4(cid:19).[(cid:20) (cid:20)(cid:21)(cid:20)(cid:21).4(cid:21).4(cid:20) Atlantic salmon (Salmo salar) and (cid:19)(cid:20) (cid:20)(cid:21)(cid:20)(cid:21).4(cid:21).[(cid:20) Danube salmon (Hucho hucho) (cid:20)(cid:21)(cid:20)(cid:21).4[.4(cid:20) Other (cid:19)(cid:20) (cid:20)(cid:21)(cid:20)(cid:21).4[.[(cid:20) (cid:20)(cid:21)(cid:20)(cid:21).<(cid:19).4(cid:20) Yellowfin tunas (cid:19)(cid:20) (cid:20)(cid:21)(cid:20)(cid:21).<(cid:19).[(cid:20) (cid:20)(cid:21)(cid:20)(cid:21).<<.4(cid:20) Bigeye tunas (cid:19)(cid:20) (cid:20)(cid:21)(cid:20)(cid:21).<<.[(cid:20) (cid:20)(cid:21)(cid:20)(cid:21).<(cid:25).4(cid:20) Atlantic and Pacific bluefin tunas (cid:19)(cid:20) (cid:20)(cid:21)(cid:20)(cid:21).<(cid:25).[(cid:20) (cid:20)(cid:21)(cid:20)(cid:21).<d.4(cid:20) Southem bluefin tunas (cid:19)(cid:20) (cid:20)(cid:21)(cid:20)(cid:21).<d.[(cid:20)",
+      "context": {
+        "section_id": "20472",
+        "page": 4
+      }
+    },
+    {
+      "question": "What does section 20474 say?",
+      "answer": "বাংলাদেশ গেজেট, অতিরিক্ত, জুন 30, 2024 20475 (cid:1)(cid:29)(cid:14)(cid:17)(cid:9)(cid:11)(cid:9) (cid:23)(cid:9)(cid:11)~ql(cid:12) * (cid:23)M(cid:14)(cid:13) }(cid:23)K(cid:24)/(cid:14) (cid:1)##(cid:14)(cid:12) (cid:23)(cid:26)v(cid:9) (cid:17)(cid:9)(cid:11)(cid:13)(cid:14)(cid:12) C(cid:13)(cid:9)G NO/(cid:9)(cid:14) (Description of Goods) (Heading) (H.S. Code) (%) (4) ((cid:19)) ((cid:21)) (<) (cid:20)e.(cid:20)4 (cid:28)#(cid:26) (cid:20)e(cid:20)4.44.4(cid:20) Coconuts, Brazil nuts, cashew nuts and (cid:19)(cid:20) (cid:20)e.(cid:20)(cid:19) (cid:20)e(cid:20)4.4(cid:19).4(cid:20) other nuts, fresh or dried (Wrapped or canned upto 2.5 kg) (cid:20)e(cid:20)4.4[.4(cid:20) (cid:20)e(cid:20)4.(cid:19)4.4(cid:20) (cid:20)e(cid:20)4.(cid:19)(cid:19).4(cid:20) (cid:20)e(cid:20)4.(cid:21)4.4(cid:20) (cid:20)e(cid:20)4.(cid:21)(cid:19).4(cid:20) (cid:20)e(cid:20)(cid:19).44.4(cid:20) (cid:20)e(cid:20)(cid:19).4(cid:19).4(cid:20) (cid:20)e(cid:20)(cid:19).(cid:19)(cid:19).4(cid:20) (cid:20)e(cid:20)(cid:19).(cid:21)4.4(cid:20) (cid:20)e(cid:20)(cid:19).(cid:21)(cid:19).4(cid:20) (cid:20)e(cid:20)(cid:19).<4.4(cid:20) (cid:20)e(cid:20)(cid:19).<(cid:19).4(cid:20) (cid:20)e(cid:20)(cid:19).(cid:25)4.4(cid:20) (cid:20)e(cid:20)(cid:19).(cid:25)(cid:19).4(cid:20) (cid:20)e(cid:20)(cid:19).d4.4(cid:20) (cid:20)e(cid:20)(cid:19).d(cid:19).4(cid:20) (cid:20)e(cid:20)(cid:19).6(cid:20).4(cid:20) (cid:20)e(cid:20)(cid:19).[[.[4 (cid:20)e.(cid:20)(cid:19) (cid:20)e(cid:20)(cid:19).e(cid:20).4(cid:20) Areca Nut (cid:21)(cid:20) (cid:20)e(cid:20)(cid:19).e(cid:20).[(cid:20) (cid:20)e(cid:20)(cid:19).[4.4(cid:20) Pine nuts (cid:21)(cid:20) (cid:20)e(cid:20)(cid:19).[(cid:19).4(cid:20) (cid:20)e(cid:20)(cid:19).[[.44 (cid:3)(cid:9)8(cid:9) #(cid:9) N(cid:13)(cid:17)(cid:9) g (cid:9)(cid:1)(cid:14), C&(cid:9)(cid:23)(cid:9) (cid:130)(cid:9)A(cid:9)(cid:24)(cid:17)(cid:9) /!(cid:13) #(cid:9) (cid:17)(cid:9) (cid:21)(cid:20) (cid:20)e(cid:20)(cid:19).[[.4(cid:19) /!(cid:13) (cid:20)e(cid:20)(cid:19).[[.4[ (cid:20)e.(cid:20)< (cid:20)e(cid:20)<.(cid:25)(cid:20).(cid:21)4 (cid:3)(cid:9)8(cid:9) #(cid:9) N(cid:13)(cid:17)(cid:9) (cid:15)(cid:11) (cid:19)(cid:20) (cid:20)e(cid:20)<.(cid:25)(cid:20).(cid:21)[",
+      "context": {
+        "section_id": "20474",
+        "page": 6
+      }
+    },
+    {
+      "question": "What does section 20476 say?",
+      "answer": "বাংলাদেশ গেজেট, অতিরিক্ত, জুন 30, 2024 20477 (cid:1)(cid:29)(cid:14)(cid:17)(cid:9)(cid:11)(cid:9) (cid:23)(cid:9)(cid:11)~ql(cid:12) * (cid:23)M(cid:14)(cid:13) }(cid:23)K(cid:24)/(cid:14) (cid:1)##(cid:14)(cid:12) (cid:23)(cid:26)v(cid:9) (cid:17)(cid:9)(cid:11)(cid:13)(cid:14)(cid:12) C(cid:13)(cid:9)G NO/(cid:9)(cid:14) (Description of Goods) (Heading) (H.S. Code) (%) (4) ((cid:19)) ((cid:21)) (<) (cid:20)e.4(cid:20) (cid:23)(cid:13)$ (cid:7)(cid:129)(cid:9)(cid:129) (cid:3)(cid:9)8(cid:9) ($ (cid:19)(cid:20) (cid:28)(cid:16)I,(cid:28)(cid:23),(cid:24)(cid:13)(cid:9)G (cid:20)[.(cid:20)4 (cid:20)[(cid:20)4.44.4(cid:20) Coffee; coffee husks and skins; coffee (cid:19)(cid:20) (cid:20)[(cid:20)4.4(cid:19).4(cid:20) suনংtitutes containing coffee in any proportion (Wrapped or canned upto (cid:20)[(cid:20)4.(cid:19)4.4(cid:20) 2.5 kg) (cid:20)[(cid:20)4.(cid:19)(cid:19).4(cid:20) (cid:20)[(cid:20)4.[(cid:20).4(cid:20) (cid:20)[.(cid:20)(cid:19) (cid:20)[(cid:20)(cid:19).4(cid:20).(cid:20)(cid:20) Green tea (cid:19)(cid:20) (cid:20)[(cid:20)(cid:19).(cid:19)(cid:20).(cid:20)(cid:20) (cid:20)[(cid:20)(cid:19).(cid:21)(cid:20).(cid:20)(cid:20) Black tea (farmented) and partly (cid:19)(cid:20) farmented tea, in immediate packings of a content not exceeding 3 kg (cid:20)[(cid:20)(cid:19).<(cid:20).(cid:20)(cid:20) Other black tea (farmented) and other (cid:19)(cid:20) partly farmented tea (cid:20)[.(cid:20)< (cid:20)[(cid:20)<.44.4(cid:20) Cc(cid:9)$(cid:11)(cid:1)(cid:14)I, (cid:142)(cid:12) *#(cid:9) ’$(cid:9)(cid:24)(cid:17)(cid:9) /!(cid:13) #(cid:9) (cid:17)(cid:9) /!(cid:13) (cid:19)(cid:20) (cid:20)[(cid:20)<.44.[(cid:20) (cid:20)[(cid:20)<.4(cid:19).(cid:20)(cid:20) (cid:20)[.(cid:20)d (cid:23)(cid:13)$ ’(cid:9)(cid:143)(cid:1)I(cid:1)(cid:17) (cid:28)#(cid:26) ’(cid:9)(cid:143)(cid:1)I(cid:1)(cid:17) c(cid:9)(cid:24)(cid:130)(cid:14) (cid:144)$ (cid:19)(cid:20) (cid:28)(cid:16)I,(cid:28)(cid:23),(cid:24)(cid:13)(cid:9)G (cid:20)[.(cid:20)6 (cid:23)(cid:13)$ $#(cid:145) (cid:19)(cid:20) (cid:28)(cid:16)I,(cid:28)(cid:23),(cid:24)(cid:13)(cid:9)G (cid:20)[.(cid:20)e (cid:20)[(cid:20)e.(cid:21)4.4(cid:20) (cid:28)$(cid:9)I (cid:19)(cid:20) (cid:20)[(cid:20)e.(cid:21)4.[(cid:20) (cid:20)[(cid:20)e.(cid:21)(cid:19).4(cid:20) (cid:20)[(cid:20)e.(cid:21)(cid:19).[(cid:20) (cid:20)[.(cid:20)[ (cid:20)[(cid:20)[.(cid:21)4.4(cid:20) (cid:1)8(cid:14)(cid:9) (cid:19)(cid:20) (cid:20)[(cid:20)[.(cid:21)4.[(cid:20) (cid:20)[(cid:20)[.(cid:21)(cid:19).4(cid:20) (cid:20)[(cid:20)[.(cid:21)(cid:19).[(cid:20)",
+      "context": {
+        "section_id": "20476",
+        "page": 8
+      }
+    },
+    {
+      "question": "What does section 20478 say?",
+      "answer": "বাংলাদেশ গেজেট, অতিরিক্ত, জুন 30, 2024 20479 (cid:1)(cid:29)(cid:14)(cid:17)(cid:9)(cid:11)(cid:9) (cid:23)(cid:9)(cid:11)~ql(cid:12) * (cid:23)M(cid:14)(cid:13) }(cid:23)K(cid:24)/(cid:14) (cid:1)##(cid:14)(cid:12) (cid:23)(cid:26)v(cid:9) (cid:17)(cid:9)(cid:11)(cid:13)(cid:14)(cid:12) C(cid:13)(cid:9)G NO/(cid:9)(cid:14) (Description of Goods) (Heading) (H.S. Code) (%) (4) ((cid:19)) ((cid:21)) (<) 4[.(cid:20)(cid:19) (cid:23)(cid:13)$ Pasta, whether or not cooked or stuffed (cid:21)(cid:20) (cid:28)(cid:16)I,(cid:28)(cid:23),(cid:24)(cid:13)(cid:9)G or otherwise prepared; couscous 4[.(cid:20)< (cid:23)(cid:13)$ Prepared foods obtained by the (cid:21)(cid:20) (cid:28)(cid:16)I,(cid:28)(cid:23),(cid:24)(cid:13)(cid:9)G swelling or roasting of cereals or cereal products; all types of cereals 4[.(cid:20)(cid:25) 4[(cid:20)(cid:25).(cid:21)4.(cid:20)(cid:20) Sweet biscuits <(cid:25) 4[(cid:20)(cid:25).(cid:21)(cid:19).(cid:20)(cid:20) Waffles and wafers <(cid:25) 4[(cid:20)(cid:25).<(cid:20).(cid:20)(cid:20) Rusks, toasted bread and similar <(cid:25) toasted products 4[(cid:20)(cid:25).[(cid:20).(cid:20)(cid:20) Other <(cid:25) (cid:19)(cid:20).(cid:20)(cid:25) (cid:19)(cid:20)(cid:20)(cid:25).(cid:19)(cid:20).(cid:20)(cid:20) (cid:24)X(cid:24)X(cid:9) (cid:1)I (cid:138) <(cid:25) (cid:19)(cid:20).(cid:20)6 (cid:23)(cid:13)$ (cid:14)(cid:9)r(cid:9)(cid:14) ((cid:24)$ -(cid:9)T 8(cid:155)(cid:9)(cid:11), ((cid:24)$(cid:14) C8(cid:1)$, (cid:11)(cid:9)(cid:14)(cid:11)(cid:9)(cid:24)$G(cid:23), (cid:19)(cid:20) (cid:28)(cid:16)I,(cid:28)(cid:23),(cid:24)(cid:13)(cid:9)G ($ #(cid:9) #(cid:9)’(cid:9)(cid:11)H\" (cid:1) !(cid:1)(cid:14) (cid:28)#(cid:26) ($ #(cid:9) #(cid:9)’(cid:9)(cid:24)(cid:11)(cid:14) C (cid:150), (cid:1)I(cid:1)(cid:17) #(cid:9) (cid:7)(cid:129)(cid:9)(cid:129) (cid:1)(cid:11)(cid:1)h ’(cid:9)1 *H\" /!(cid:13) #(cid:9) (cid:17)(cid:9) /!(cid:13) (cid:19)(cid:20).(cid:20)e (cid:23)(cid:13)$ Fruit, nuts and other edible parts of (cid:19)(cid:20) (cid:28)(cid:16)I,(cid:28)(cid:23),(cid:24)(cid:13)(cid:9)G plants, otherwise prepared or preserved, whether or not containing added sugar or other sweetening matter or spirit, not elsewhere specified or included. (cid:19)(cid:20).(cid:20)[ (cid:23)(cid:13)$ ((cid:24)$(cid:14) (cid:14)(cid:23) ((cid:15)(cid:141)(cid:24)(cid:14)(cid:14) must (cid:23)/) #(cid:9) (cid:23)#(cid:1)8(cid:14) (cid:14)(cid:23), (cid:19)(cid:20) (cid:28)(cid:16)I,(cid:28)(cid:23),(cid:24)(cid:13)(cid:9)G c@8(cid:9)(cid:24)(cid:17)(cid:9) (cid:17)(cid:24)/ #(cid:9) (cid:1)(cid:137)(cid:1)(cid:14)XH\" (cid:17)(cid:24)/, (cid:1)I(cid:1)(cid:17) #(cid:9) (cid:7)(cid:129)(cid:9)(cid:129) (cid:1)(cid:11)(cid:1)h ’(cid:9)1 *H\" /!(cid:13) #(cid:9) (cid:17)(cid:9) /!(cid:13) (cid:19)4.(cid:20)4 (cid:23)(cid:13)$ Extracts, essences and concentrates, (cid:19)(cid:20) (cid:28)(cid:16)I,(cid:28)(cid:23),(cid:24)(cid:13)(cid:9)G of coffee, tea or mate and preparations (cid:19)4.(cid:20)(cid:21) (cid:23)(cid:13)$ (cid:23)(cid:23) (cid:28)#(cid:26) (cid:7)7, }; mixed condiments, (cid:19)(cid:20) (cid:28)(cid:16)I,(cid:28)(cid:23),(cid:24)(cid:13)(cid:9)G (cid:23)(cid:1)(cid:14)Q(cid:9)(cid:14) z(cid:133)A(cid:9) (cid:28)#(cid:26) (cid:7)(cid:129)(cid:9)(cid:129) } (cid:19)4.(cid:20)(cid:25) (cid:19)4(cid:20)(cid:25).(cid:20)(cid:20).(cid:20)(cid:20) Ice cream and other edible ice, (cid:19)(cid:20) whether or not containing cocoa",
+      "context": {
+        "section_id": "20478",
+        "page": 10
+      }
+    }
+  ]
+}

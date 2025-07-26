@@ -1,0 +1,37 @@
+{
+  "document_info": {
+    "title": "Finance Act 2024 (Enhanced)",
+    "type": "Legal Act",
+    "language": "Mixed (Bengali/English)",
+    "processing_date": "2025-07-25T15:40:53.310488",
+    "extraction_methods": [
+      "direct_pdf",
+      "ocr",
+      "pattern_detection",
+      "visual"
+    ],
+    "file_path": "/mnt/c/a-ocr/bbocr/test_tax_documents/Finance_Act-2024_image_based.pdf"
+  },
+  "content": {
+    "legal_sections": [],
+    "tables": [],
+    "all_text_elements": [],
+    "total_text_elements": 0,
+    "extraction_stats": {
+      "pdf_extraction": 0,
+      "ocr_extraction": 0,
+      "table_count": 0
+    }
+  },
+  "quality_metrics": {
+    "extraction_completeness": 0.8,
+    "average_confidence": NaN,
+    "page_coverage": 0,
+    "table_types": []
+  },
+  "validation": {
+    "no_missing_pages": true,
+    "text_coherence": 0.0,
+    "table_completeness": false
+  }
+}
